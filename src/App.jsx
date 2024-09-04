@@ -1,12 +1,8 @@
-
 import './App.css'
-function App() {
+import Routes from './routes';
 
-  return (
-    <>
-      This is my Hoem page
-    </>
-  )
+function App() {
+  return <Routes />
 }
 
 export default App
